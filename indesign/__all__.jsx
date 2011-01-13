@@ -1,0 +1,1 @@
+﻿if (app.is("indesign")) {	#include "regexp.jsx"	#include "xml.jsx"}
