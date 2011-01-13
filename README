@@ -1,3 +1,11 @@
+Because I was missing some functionality in Extendables, I just forked and added a few of my own methods:
+
+* `forEach` for Objects - useful when you have InDesign-Collections (e.g. app.documents)
+* `getXPath` for XMLElement-Objects - gives you an Array with matching XMlElements
+* `grepReplace` - Wrapper for InDesigns GREP-search and replace
+* `grepStyle` - Wrapper for Styling Text via GREP-Search
+
+
 Extendables is an MIT-licensed developers' framework for Adobe ExtendScript. If you're writing heavy-duty automations for a Creative Suite app like InDesign, or anything more than just a throwaway script, this is for you.
 
 Extendables comes with three big blocks of functionality.
